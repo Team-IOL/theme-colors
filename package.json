@@ -1,6 +1,6 @@
 {
   "name": "@iol-inc/theme-colors",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "IOL projects theme colors",
   "main": "dist/index.js",
   "types": "dist/theme-colors.d.ts",

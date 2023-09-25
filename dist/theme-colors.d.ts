@@ -96,6 +96,29 @@ declare const IOL_COLORS: {
  * @property {string} red300 - Medium shade of red.
  * @property {string} red400 - Light shade of red.
  */
-declare const HS_COLORS: object;
+declare const HS_COLORS: {
+    container_color: string;
+    neutral100: string;
+    neutral200: string;
+    neutral300: string;
+    neutral400: string;
+    neutral500: string;
+    green100: string;
+    green200: string;
+    green300: string;
+    green400: string;
+    yellow100: string;
+    yellow200: string;
+    yellow300: string;
+    yellow400: string;
+    blue100: string;
+    blue200: string;
+    blue300: string;
+    blue400: string;
+    red100: string;
+    red200: string;
+    red300: string;
+    red400: string;
+};
 
 export { HS_COLORS, IOL_COLORS };

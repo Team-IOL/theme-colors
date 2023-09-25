@@ -29,7 +29,7 @@
  * @property {string} red300 - Medium shade of red.
  * @property {string} red400 - Light shade of red.
  */
-const HS_COLORS: object = {
+const HS_COLORS = {
     container_color: "#f6f9f8",
     neutral100: "#000000",
     neutral200: "#9A9A9A",

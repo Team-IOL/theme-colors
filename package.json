@@ -1,8 +1,9 @@
 {
   "name": "@iol-inc/theme-colors",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "IOL projects theme colors",
   "main": "dist/index.js",
+  "sass": "dist/_sass.scss",
   "types": "dist/theme-colors.d.ts",
   "repository": {
     "type": "git",

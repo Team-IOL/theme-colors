@@ -1,3 +1,12 @@
+## USING SASS
+```scss
+@use "@iol-inc/theme-colors/dist/sass" as themeColors; // any desired name
+.text {
+  color: themeColors.$hs_blue100;
+  text-align: center;
+}
+```
+
 ## Constants
 
 <dl>

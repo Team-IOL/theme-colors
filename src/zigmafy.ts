@@ -1,132 +1,9 @@
 /**
- * A collection of color constants for various UI states and themes.
- * @constant
- * @type {Object}
- *
- * @property {string} confirm50 - Lightest shade of confirmation green.
- * @property {string} confirm100 - Light shade of confirmation green.
- * @property {string} confirm200 - Medium-light shade of confirmation green.
- * @property {string} confirm300 - Medium shade of confirmation green.
- * @property {string} confirm400 - Dark shade of confirmation green.
- *
- * @property {string} error50 - Lightest shade of error red.
- * @property {string} error100 - Light shade of error red.
- * @property {string} error200 - Medium-light shade of error red.
- * @property {string} error300 - Medium shade of error red.
- * @property {string} error400 - Dark shade of error red.
- *
- * @property {string} neutral50 - Lightest shade of neutral.
- * @property {string} neutral100 - Very light shade of neutral.
- * @property {string} neutral200 - Light shade of neutral.
- * @property {string} neutral300 - Medium-light shade of neutral.
- * @property {string} neutral400 - Medium shade of neutral.
- * @property {string} neutral500 - Medium-dark shade of neutral.
- * @property {string} neutral600 - Dark shade of neutral.
- * @property {string} neutral700 - Very dark shade of neutral.
- * @property {string} neutral800 - Darker shade of neutral.
- * @property {string} neutral900 - Darkest shade of neutral.
- *
- * @property {string} primary50 - Lightest shade of primary blue.
- * @property {string} primary100 - Light shade of primary blue.
- * @property {string} primary200 - Medium-light shade of primary blue.
- * @property {string} primary300 - Medium shade of primary blue.
- * @property {string} primary400 - Dark shade of primary blue.
- *
- * @property {string} loader_background - Background color for loaders.
- * @property {string} loader_foreground - Foreground color for loaders.
- */
-declare const IOL_COLORS: {
-    confirm50: string;
-    confirm100: string;
-    confirm200: string;
-    confirm300: string;
-    confirm400: string;
-    error50: string;
-    error100: string;
-    error200: string;
-    error300: string;
-    error400: string;
-    neutral50: string;
-    neutral100: string;
-    neutral200: string;
-    neutral300: string;
-    neutral400: string;
-    neutral500: string;
-    neutral600: string;
-    neutral700: string;
-    neutral800: string;
-    neutral900: string;
-    primary50: string;
-    primary100: string;
-    primary200: string;
-    primary300: string;
-    primary400: string;
-    loader_background: string;
-    loader_foreground: string;
-};
-
-/**
- * A collection of color constants for Hey Success.
- * @constant
- * @type {Object}
- * @property {string} container_color - Base color for containers.
- * @property {string} neutral100 - Darkest shade of neutral color.
- * @property {string} neutral200 - Dark shade of neutral color.
- * @property {string} neutral300 - Medium shade of neutral color.
- * @property {string} neutral400 - Light shade of neutral color.
- * @property {string} neutral500 - Lightest shade of neutral color.
- *
- * @property {string} green100 - Darkest shade of green.
- * @property {string} green200 - Dark shade of green.
- * @property {string} green300 - Medium shade of green.
- * @property {string} green400 - Light shade of green.
- *
- * @property {string} yellow100 - Darkest shade of yellow.
- * @property {string} yellow200 - Dark shade of yellow.
- * @property {string} yellow300 - Medium shade of yellow.
- * @property {string} yellow400 - Light shade of yellow.
- *
- * @property {string} blue100 - Darkest shade of blue.
- * @property {string} blue200 - Dark shade of blue.
- * @property {string} blue300 - Medium shade of blue.
- * @property {string} blue400 - Light shade of blue.
- *
- * @property {string} red100 - Darkest shade of red.
- * @property {string} red200 - Dark shade of red.
- * @property {string} red300 - Medium shade of red.
- * @property {string} red400 - Light shade of red.
- */
-declare const HS_COLORS: {
-    container_color: string;
-    neutral100: string;
-    neutral200: string;
-    neutral300: string;
-    neutral400: string;
-    neutral500: string;
-    green100: string;
-    green200: string;
-    green300: string;
-    green400: string;
-    yellow100: string;
-    yellow200: string;
-    yellow300: string;
-    yellow400: string;
-    blue100: string;
-    blue200: string;
-    blue300: string;
-    blue400: string;
-    red100: string;
-    red200: string;
-    red300: string;
-    red400: string;
-};
-
-/**
- * Defines the color palette for the ZIGMAFY UI theme, including primary, secondary,
- * and various shades for different UI elements like backgrounds, text, and borders.
- * Each color is represented in HEX format and is intended for specific use cases to ensure
+ * Defines the color palette for the ZIGMAFY UI theme, including primary, secondary, 
+ * and various shades for different UI elements like backgrounds, text, and borders. 
+ * Each color is represented in HEX format and is intended for specific use cases to ensure 
  * a cohesive look and feel across the UI.
- *
+ * 
  * @property {string} primary_main - The main color for primary elements, a deep blue.
  * @property {string} primary_dark - A darker shade of the primary color for hover states and accents.
  * @property {string} primary_light - A lighter shade of the primary color for backgrounds and large areas.
@@ -206,85 +83,94 @@ declare const HS_COLORS: {
  * @property {string} green_success_800 - A very dark success green for utmost contrast in critical success messages.
  * @property {string} green_success_900 - The darkest success green, used sparingly for extreme emphasis in success states.
  */
-declare const ZIGMAFY_COLORS: {
-    primary_main: string;
-    primary_dark: string;
-    primary_light: string;
-    primary_contrast: string;
-    secondary_main: string;
-    secondary_dark: string;
-    secondary_light: string;
-    secondary_contrast: string;
-    slate_primary_50: string;
-    slate_primary_100: string;
-    slate_primary_200: string;
-    slate_primary_300: string;
-    slate_primary_400: string;
-    slate_primary_500: string;
-    slate_primary_600: string;
-    slate_primary_700: string;
-    slate_primary_800: string;
-    slate_primary_900: string;
-    neutral_50: string;
-    neutral_100: string;
-    neutral_200: string;
-    neutral_300: string;
-    neutral_400: string;
-    neutral_500: string;
-    neutral_600: string;
-    neutral_700: string;
-    neutral_800: string;
-    neutral_900: string;
-    gray_secondary_50: string;
-    gray_secondary_100: string;
-    gray_secondary_200: string;
-    gray_secondary_300: string;
-    gray_secondary_400: string;
-    gray_secondary_500: string;
-    gray_secondary_600: string;
-    gray_secondary_700: string;
-    gray_secondary_800: string;
-    gray_secondary_900: string;
-    stone_info_50: string;
-    stone_info_100: string;
-    stone_info_200: string;
-    stone_info_300: string;
-    stone_info_400: string;
-    stone_info_500: string;
-    stone_info_600: string;
-    stone_info_700: string;
-    stone_info_800: string;
-    stone_info_900: string;
-    red_error_50: string;
-    red_error_100: string;
-    red_error_200: string;
-    red_error_300: string;
-    red_error_400: string;
-    red_error_500: string;
-    red_error_600: string;
-    red_error_700: string;
-    red_error_800: string;
-    red_error_900: string;
-    yellow_warning_50: string;
-    yellow_warning_100: string;
-    yellow_warning_200: string;
-    yellow_warning_300: string;
-    yellow_warning_400: string;
-    yellow_warning_500: string;
-    yellow_warning_600: string;
-    yellow_warning_700: string;
-    yellow_warning_800: string;
-    yellow_warning_900: string;
-    green_success_50: string;
-    green_success_100: string;
-    green_success_200: string;
-    green_success_300: string;
-    green_success_400: string;
-    green_success_500: string;
-    green_success_600: string;
-    green_success_700: string;
-    green_success_800: string;
-    green_success_900: string;
-};
 
-export { HS_COLORS, IOL_COLORS, ZIGMAFY_COLORS };
+const ZIGMAFY_COLORS = {
+    primary_main: "#1E293B",
+    primary_dark: "#0F172A",
+    primary_light: "#E2E8F0",
+    primary_contrast: "#F8FAFC",
+    
+    secondary_main: "#D1D5DB",
+    secondary_dark: "#6B7280",
+    secondary_light: "#F3F4F6",
+    secondary_contrast: "#1F2937",
+
+    slate_primary_50: "#F8FAFC",
+    slate_primary_100: "#F1F5F9",
+    slate_primary_200: "#E2E8F0",
+    slate_primary_300: "#CBD5E1",
+    slate_primary_400: "#94A3B8",
+    slate_primary_500: "#64748B",
+    slate_primary_600: "#475569",
+    slate_primary_700: "#334155",
+    slate_primary_800: "#1E293B",
+    slate_primary_900: "#0F172A",
+
+    neutral_50: "#FAFAFA",
+    neutral_100: "#F5F5F5",
+    neutral_200: "#E5E5E5",
+    neutral_300: "#D4D4D4",
+    neutral_400: "#A3A3A3",
+    neutral_500: "#737373",
+    neutral_600: "#525252",
+    neutral_700: "#404040",
+    neutral_800: "#262626",
+    neutral_900: "#171717",
+
+    gray_secondary_50: "#F9FAFB",
+    gray_secondary_100: "#F3F4F6",
+    gray_secondary_200: "#E5E7EB",
+    gray_secondary_300: "#D1D5DB",
+    gray_secondary_400: "#9CA3AF",
+    gray_secondary_500: "#6B7280",
+    gray_secondary_600: "#4B5563",
+    gray_secondary_700: "#374151",
+    gray_secondary_800: "#1F2937",
+    gray_secondary_900: "#111827",
+
+    stone_info_50: "#FAFAF9",
+    stone_info_100: "#F5F5F4",
+    stone_info_200: "#E7E5E4",
+    stone_info_300: "#D6D3D1",
+    stone_info_400: "#A8A29E",
+    stone_info_500: "#78716C",
+    stone_info_600: "#57534E",
+    stone_info_700: "#44403C",
+    stone_info_800: "#292524",
+    stone_info_900: "#1C1917",
+
+    red_error_50: "#FEF2F2",
+    red_error_100: "#FEE2E2",
+    red_error_200: "#FECACA",
+    red_error_300: "#FCA5A5",
+    red_error_400: "#F87171",
+    red_error_500: "#EF4444",
+    red_error_600: "#DC2626",
+    red_error_700: "#B91C1C",
+    red_error_800: "#991B1B",
+    red_error_900: "#7F1D1D",
+
+    yellow_warning_50: "#FFFBEB",
+    yellow_warning_100: "#FEF3C7",
+    yellow_warning_200: "#FDE68A",
+    yellow_warning_300: "#FCD34D",
+    yellow_warning_400: "#FBBF24",
+    yellow_warning_500: "#F59E0B",
+    yellow_warning_600: "#D97706",
+    yellow_warning_700: "#B45309",
+    yellow_warning_800: "#92400E",
+    yellow_warning_900: "#78350F",
+
+    green_success_50: "#F0FDF4",
+    green_success_100: "#DCFCE7",
+    green_success_200: "#BBF7D0",
+    green_success_300: "#86EFAC",
+    green_success_400: "#4ADE80",
+    green_success_500: "#22C55E",
+    green_success_600: "#16A34A",
+    green_success_700: "#15803D",
+    green_success_800: "#166534",
+    green_success_900: "#14532D",
+}
+
+export default ZIGMAFY_COLORS;

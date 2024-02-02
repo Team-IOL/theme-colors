@@ -3,7 +3,8 @@
  * and various shades for different UI elements like backgrounds, text, and borders. 
  * Each color is represented in HEX format and is intended for specific use cases to ensure 
  * a cohesive look and feel across the UI.
- * 
+ * @constant
+ * @type {Object}
  * @property {string} primary_main - The main color for primary elements, a deep blue.
  * @property {string} primary_dark - A darker shade of the primary color for hover states and accents.
  * @property {string} primary_light - A lighter shade of the primary color for backgrounds and large areas.
@@ -83,8 +84,7 @@
  * @property {string} green_success_800 - A very dark success green for utmost contrast in critical success messages.
  * @property {string} green_success_900 - The darkest success green, used sparingly for extreme emphasis in success states.
  */
-
-const ZIGMAFY_COLORS = {
+const ZIGMAFY_COLORS: object = {
     primary_main: "#1E293B",
     primary_dark: "#0F172A",
     primary_light: "#E2E8F0",

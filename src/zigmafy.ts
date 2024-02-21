@@ -84,7 +84,7 @@
  * @property {string} green_success_800 - A very dark success green for utmost contrast in critical success messages.
  * @property {string} green_success_900 - The darkest success green, used sparingly for extreme emphasis in success states.
  */
-const ZIGMAFY_COLORS: object = {
+const ZIGMAFY_COLORS = {
     primary_main: "#1E293B",
     primary_dark: "#0F172A",
     primary_light: "#E2E8F0",

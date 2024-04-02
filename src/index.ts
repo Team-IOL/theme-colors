@@ -1,6 +1,8 @@
 import IOL_COLORS from "./arcs"
 import HS_COLORS from "./hey_success"
 import ZIGMAFY_COLORS from "./zigmafy"
+import TAILWIND_COLORS from "./tailwind_colors" 
 
 
-export { IOL_COLORS, HS_COLORS, ZIGMAFY_COLORS } 
+export { IOL_COLORS, HS_COLORS, ZIGMAFY_COLORS, TAILWIND_COLORS } 
+export { IOL_COLORS as COLORS_IOL, HS_COLORS as COLORS_HEY_SUCCESS, ZIGMAFY_COLORS as COLORS_ZIGMAFY, TAILWIND_COLORS as COLORS_TAILWIND } 
